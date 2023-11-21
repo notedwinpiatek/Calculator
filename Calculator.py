@@ -13,6 +13,6 @@ while number != True:
         print(a * b)
         print("Division")
         if b == 0: print("It's imposible to devide by 0") 
-        else: print(a / b)
+        else: print(int(a / b))
     except ValueError:
         print("Invalid input. Try again.")
